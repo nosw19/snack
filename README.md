@@ -51,6 +51,7 @@
         <li>사람들이 접하기 쉽고 친숙한 스낵 시장의 동향을 파악</li>
       </ul>
     </li>
+    <br>
     <li><strong>2.데이터 설명</strong>
       <ul>
         <li><strong>활용 데이터:</strong>
@@ -69,12 +70,14 @@
         </li>
       </ul>
     </li>
+    <br>
     <li><strong>3.데이터 분석</strong>
       <ul>
           <li>SARIMA를 활용하여 현 스낵 시장을 예측</li>
           <li>크롤링, 워드클라우드, 그랜저 인과성 테스트 등을 통하여 매출액과의 연관성을 확인</li>
       </ul>
     </li>
+    <br>
     <li><strong>4.성장 전략 제안</strong>
       <ul>
         <li>긍정적인 소비자 인식 구축</li>
