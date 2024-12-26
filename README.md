@@ -37,7 +37,7 @@
         <li>grangercausalitytests</li>
       </ul>
   </li>
-    <li><strong>시각화</strong> : matplotlib
+    <li><strong>시각화</strong> : matplotlib</li>
   </ul>
 </div>
 
@@ -60,6 +60,7 @@
             <li>평가 데이터(리뷰 데이터, 언급량 데이터)</li>
           </ul>
         </li>
+        <br>
         <li><strong>데이터 수집 출처:</strong>
           <ul>
             <li>FIS 식품산업통계정보</li>
