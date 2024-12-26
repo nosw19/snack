@@ -21,8 +21,8 @@
 
 <div>
   <h2><strong>프로젝트 개요</strong></h2>
-  세종시 공공 전기자전거 도입을 위한 거치대 최적 입지 선정을 주제로 한 프로젝트입니다.<br>
-  세종시 공모전에서 본선 진출의 성과를 거두었으며, Python을 활용한 데이터 분석과 머신러닝 기법을 사용하였습니다.<br>
+  스낵 시장의 트렌드와 소비자 요구를 주제로 한 프로젝트입니다.<br>
+  크롤링, 워드클라우드, 시계열 분석 등을 활용하여 데이터 분석을 진행하였습니다.<br>
 </div>
 
 <br>
@@ -31,14 +31,13 @@
   <h2><strong>🛠 사용 기술 스택</strong></h2>
   <ul>
     <li><strong>언어</strong> : Python </li>
-    <li><strong>머신 러닝 </strong>: 
+    <li><strong>분석 기법 </strong>: 
       <ul>  
-        <li>K-Means Clustering</li>
-        <li>MCLP</li>
-        <li>OPTICS</li>
+        <li>SARIMA</li>
+        <li>grangercausalitytests</li>
       </ul>
   </li>
-    <li><strong>시각화</strong> : folium, matplotlib
+    <li><strong>시각화</strong> : matplotlib
   </ul>
 </div>
 
@@ -47,40 +46,41 @@
 <div>
   <h2><strong>프로젝트 내용</strong></h2>
   <ul>
-    <li><strong>1.문제 정의</strong>
+    <li><strong>1.주제 선정</strong>
       <ul>
-        <li>세종시의 교통 혼잡 문제 해결을 위한 공공 전기자전거 도입 필요성 제기</li>
-        <li>시민 이동 데이터를 기반으로 거치대 위치 선정 중요성 분석</li>
+        <li>사람들이 접하기 쉽고 친숙한 스낵 시장의 동향을 파악</li>
       </ul>
     </li>
     <li><strong>2.데이터 설명</strong>
       <ul>
         <li><strong>활용 데이터:</strong>
           <ul>
-            <li>세종시 교통 데이터 (횡단보도 위치, 정류장 위치 등)</li>
-            <li>세종시 자전거 관련 데이터(전기자전거 이용률, 자전거 이용률 등)</li>
+            <li>연도별 제조사, 상품, 카테고리별 과자 매출액</li>
+            <li>평가 데이터(리뷰 데이터, 언급량 데이터)</li>
           </ul>
         </li>
         <li><strong>데이터 수집 출처:</strong>
           <ul>
-            <li>공공 데이터 포털</li>
-            <li>세종시 교통 빅데이터분석 시스템</li>
+            <li>FIS 식품산업통계정보</li>
             <li>KOSIS 국가통계포털</li>
+            <li>신세계 닷컴, 마켓 컬리</li>
+            <li>네이버 블로그</li>
           </ul>
         </li>
       </ul>
     </li>
     <li><strong>3.데이터 분석</strong>
       <ul>
-          <li>세종시 내 주요 도로 및 인구 밀집 지역 데이터 수집.</li>
-          <li>K-Means Clustering/ MCLP/ OPTICS를 사용하여 최적 거치대 위치 군집화
+          <li>SARIMA를 활용하여 현 스낵 시장을 예측</li>
+          <li>크롤링, 워드클라우드, 그랜저 인과성 테스트 등을 통하여 매출액과의 연관성을 확인</li>
       </ul>
     </li>
-    <li><strong>4.결과 및 제안</strong>
+    <li><strong>4.성장 전략 제안</strong>
       <ul>
-        <li>세종시 내 14개의 행정동의 최적 거치대 입지 선정</li>
-        <li>교통 체증 완화 및 공공 전기 자전거 이용 활성화 기대</li>
-        <li>환경 개선 및 이동 시간 단축 가능성 제시</li>
+        <li>긍정적인 소비자 인식 구축</li>
+        <li>소비자의 호기심을 자극</li>
+        <li>선택 기준을 반영한 소비자 맞춤형 마케팅 전략</li>
+        <li>미투 제품 및 트렌드를 반영한 제품 개발</li>
       </ul>
     </li>
   </ul>
@@ -89,9 +89,21 @@
 <br>
 
 <div>
-  <h2><strong>🏆 성과</strong></h2>
+  <h2><strong>한계점</strong></h2>
   <ul>
-    <li>2024년 제 5회 세종특별자치시 빅데이터 분석 아이디어 공모전 본선 진출</li>
+    <li>데이터의 한계점</li>
+      <ul>
+        <li>데이터 기간이 한정적</li>
+        <li>상세 스낵별 매출액 부족</li>
+        <li>제품의 정보 부족</li>
+      </ul>
+    <li>소비자 리뷰의 한계점</li>
+      <ul>
+        <li>리뷰 수 부족</li>
+        <li>리뷰 내용의 빈약성</li>
+        <li>한글 언어 표현의 다양성</li>
+        <li>트렌드 제품 리뷰 수집</li>
+      </ul>
   </ul>
 </div>
 
